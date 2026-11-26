@@ -299,3 +299,4 @@ dialog.ar p{font:800 20px/1.35 'Nunito',sans-serif;margin-bottom:22px}
 
 /* steady */
 .js .rv,.js .fade,html.js .rv:not(.in),.js .rv.in,.js .fade.in{opacity:1!important;transition:none!important;animation:none!important;transform:none!important}
+:root{--bar:48px}.bar a{flex-direction:row;gap:6px;min-height:36px;font-size:12px}.bar a svg{width:16px;height:16px}
