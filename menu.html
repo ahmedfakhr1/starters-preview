@@ -30,10 +30,10 @@ setTimeout(function(){fo=true;chk()},1200);
 function hero(){var im=[].slice.call(document.querySelectorAll('img[data-first]'));if(!im.length){ho=true;chk();return}var n=im.length;im.forEach(function(i){var ok=function(){n--;bar(.5+.4*(1-n/im.length));if(n<=0){ho=true;chk()}};if(i.decode){i.decode().then(ok,ok)}else if(i.complete){ok()}else{i.onload=i.onerror=ok}})}
 if(document.readyState==='loading')document.addEventListener('DOMContentLoaded',hero);else hero();
 setTimeout(end,veil?2500:3000)})();</script>
-<link rel="stylesheet" href="fonts.css?v=3">
-<link rel="stylesheet" href="style.css?v=3">
+<link rel="stylesheet" href="fonts.css?v=4">
+<link rel="stylesheet" href="style.css?v=4">
 <noscript><style>.bar{visibility:visible;transform:none}.menu-btn{display:none}</style></noscript>
-<script src="site.js?v=3" defer></script>
+<script src="site.js?v=4" defer></script>
 <script type="application/ld+json">{"@context": "https://schema.org", "@type": "Restaurant", "name": "Starters", "description": "Curated Lebanese bowls from a small white kiosk with outdoor tables in Degla, Maadi, Cairo.", "url": "https://ahmedfakhr1.github.io/starters-preview/", "image": "https://ahmedfakhr1.github.io/starters-preview/img/og.jpg", "logo": "https://ahmedfakhr1.github.io/starters-preview/img/roundel.png", "servesCuisine": "Lebanese", "telephone": "+201006077770", "hasMenu": "https://ahmedfakhr1.github.io/starters-preview/menu.html", "address": {"@type": "PostalAddress", "streetAddress": "Street 202, Building 4, Degla", "addressLocality": "Maadi", "addressRegion": "Cairo", "addressCountry": "EG"}, "geo": {"@type": "GeoCoordinates", "latitude": 29.9534082, "longitude": 31.2721791}, "hasMap": "https://www.google.com/maps/place/Starters+Restaurant/@29.9534082,31.2721791,17z", "sameAs": ["https://www.instagram.com/starters.eg/"], "openingHoursSpecification": [{"@type": "OpeningHoursSpecification", "dayOfWeek": ["Sunday", "Monday", "Tuesday", "Wednesday"], "opens": "12:30", "closes": "23:00"}, {"@type": "OpeningHoursSpecification", "dayOfWeek": "Thursday", "opens": "15:00", "closes": "23:00"}, {"@type": "OpeningHoursSpecification", "dayOfWeek": "Saturday", "opens": "14:00", "closes": "22:00"}]}</script>
 </head>
 <body class="menu-page">
