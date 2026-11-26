@@ -296,3 +296,6 @@ dialog.ar p{font:800 20px/1.35 'Nunito',sans-serif;margin-bottom:22px}
   .mgrid{grid-template-columns:minmax(0,7fr) minmax(0,4fr);align-items:start}
   .maside{position:sticky;top:calc(var(--hh) + 96px)}
 }
+
+/* steady */
+.js .rv,.js .fade,html.js .rv:not(.in),.js .rv.in,.js .fade.in{opacity:1!important;transition:none!important;animation:none!important;transform:none!important}
